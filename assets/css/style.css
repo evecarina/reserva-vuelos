@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Alef', sans-serif;
+  }
+table
+{
+    margin: 3% 0;
+    font-size: 25px;
+}
+td
+{
+    color: black;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}
+.oculto
+{
+    display: none;
+}
+.pintar
+{
+    /*background-color: darkturquoise;*/
+}
+#secAsientosInfo, #secListar, .form-horizontal
+{
+    margin: 30px 0;
+}
+#fondo
+{
+    position: fixed;
+    top: 35px;
+    z-index: -1;
+    opacity: 0.3;
+}
